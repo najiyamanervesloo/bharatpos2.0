@@ -9,7 +9,7 @@ const DATA_CACHE   = 'bharat-pos-data-v2';
 
 // Assets to pre-cache on install
 const PRECACHE_ASSETS = [
-  './index1.html',
+  './index.html',
   './manifest.json',
   './poslogo.png',
   './icon-72x72.png',
@@ -98,7 +98,7 @@ async function cacheFirst(request, cacheName) {
   } catch {
     // Return offline fallback for navigation requests
     if (request.mode === 'navigate') {
-      const fallback = await cache.match('./index1.html');
+      const fallback = await cache.match('./index.html');
       if (fallback) return fallback;
     }
     return new Response('Offline – Bharat POS is not available right now.', {
