@@ -2,7 +2,7 @@
   "name": "Bharat POS - Full Indian POS System",
   "short_name": "Bharat POS",
   "description": "Bharat POS - Complete Point of Sale System with Cloud Sync, Inventory, Reports & More",
-  "start_url": "./index1.html",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
@@ -77,14 +77,14 @@
       "name": "New Sale",
       "short_name": "POS",
       "description": "Open the POS billing screen",
-      "url": "./index1.html#pos",
+      "url": "./index.html#pos",
       "icons": [{ "src": "icon-96x96.png", "sizes": "96x96" }]
     },
     {
       "name": "Dashboard",
       "short_name": "Dashboard",
       "description": "View sales dashboard",
-      "url": "./index1.html#dashboard",
+      "url": "./index.html#dashboard",
       "icons": [{ "src": "icon-96x96.png", "sizes": "96x96" }]
     }
   ],
