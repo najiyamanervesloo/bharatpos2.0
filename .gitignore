@@ -1,0 +1,43 @@
+# ── OS Files ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# ── Editor / IDE ───────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*.swo
+*~
+
+# ── Node (if ever added) ───────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ── Build Outputs ──────────────────────────────────────────────
+dist/
+build/
+.cache/
+
+# ── Local Secrets / Config ─────────────────────────────────────
+.env
+.env.local
+.env.*.local
+config.local.js
+
+# ── Log & Temp Files ───────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+*.backup
+
+# ── Compressed Archives ────────────────────────────────────────
+*.zip
+*.tar.gz
+*.rar
