@@ -3,15 +3,23 @@
 //  Strategy: Cache-First for static assets, Network-First for API
 // ============================================================
 
-const CACHE_NAME   = 'bharat-pos-v1';
-const STATIC_CACHE = 'bharat-pos-static-v1';
-const DATA_CACHE   = 'bharat-pos-data-v1';
+const CACHE_NAME   = 'bharat-pos-v2';
+const STATIC_CACHE = 'bharat-pos-static-v2';
+const DATA_CACHE   = 'bharat-pos-data-v2';
 
 // Assets to pre-cache on install
 const PRECACHE_ASSETS = [
   './index1.html',
   './manifest.json',
-  './poslogo.png'
+  './poslogo.png',
+  './icon-72x72.png',
+  './icon-96x96.png',
+  './icon-128x128.png',
+  './icon-144x144.png',
+  './icon-152x152.png',
+  './icon-192x192.png',
+  './icon-384x384.png',
+  './icon-512x512.png'
 ];
 
 // External CDN assets to cache on first fetch
